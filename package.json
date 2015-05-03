@@ -50,6 +50,6 @@
   },
   "scripts": {
     "start": "node_modules/.bin/gulp serve",
-    "postinstall": "node_modules/.bin/bower install && node_modules/.bin/gulp build"
+    "postinstall": "node_modules/.bin/bower --allow-root install && node_modules/.bin/gulp build"
   }
 }
