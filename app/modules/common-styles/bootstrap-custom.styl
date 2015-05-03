@@ -1,0 +1,35 @@
+/*
+ * In this file we override Bootstrap framework variables.
+ * Note that Bootstrap variables being with a dollar sign ($)
+ */
+
+@import 'colors'
+
+// Font
+
+$font-family-base = Helvetica, sans-serif
+
+$font-size-base = 14px
+$font-size-h1 = 22px
+$font-size-h2 = 16px
+$font-size-h3 = $font-size-base
+$font-size-h4 = ceil(($font-size-base * .95))
+$font-size-h5 = ceil(($font-size-base * .9))
+$font-size-h6 = ceil(($font-size-base * 0.85))
+
+$text-color = color-body
+
+// Border radius
+$border-radius-base = 0
+$border-radius-large = 0
+$border-radius-small = 0
+
+// Button
+$btn-default-color = white
+$btn-default-bg = color-orange
+$btn-default-border = color-orange
+
+/*
+ * Import Bootstrap after overriding variables above
+ */
+@import 'bootstrap'

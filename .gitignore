@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+app/bower_components
+app/shell-static
+app/mongomock
+shell-dist
+app/modules/common/config.js
+config.json

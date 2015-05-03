@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="shell">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Comments</title>
+    <meta name="description" content="">
+    <!-- VERSION: VERSION_PLACEHOLDER -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css(app) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css(app) styles/main.css -->
+    <link rel="stylesheet" href="shell-static/styles/main.css">
+    <link rel="stylesheet" href="shell-static/styles/bootstrap-custom.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div data-ui-view></div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <!-- inject:partials -->
+    <!-- endinject -->
+    <!-- inject:scripts -->
+    <script src="modules/shell/index.js"></script>
+    <script src="modules/comments/index.js"></script>
+    <script src="modules/partials/index.js"></script>
+    <script src="modules/comments/controllers/comments-ctrl.js"></script>
+    <script src="modules/comments/directives/comments.js"></script>
+    <script src="modules/shell/routes/routes.js"></script>
+    <script src="modules/comments/services/comments-resource.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+  </body>
+</html>
